@@ -296,7 +296,49 @@ body {
   text-transform: capitalize;
 }
 
+.wrapper-avatar {
+  position: relative;
+}
 .wrapper-avatar__avatar__background {
   max-width: 629px;
   max-height: 575px;
+}
+
+.avatar {
+  width: 370px;
+  height: 370px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.avatar__photo {
+  border-radius: 58% 34% 60% 25%/68% 49% 30% 25%;
+  overflow: hidden;
+  width: 370px;
+  height: 370px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.avatar__shadow {
+  width: 370px;
+  height: 370px;
+  border-radius: 58% 34% 60% 25%/68% 49% 30% 25%;
+  position: absolute;
+}
+
+.avatar__shadow--color1 {
+  background-color: rgba(255, 129, 3, 0.72);
+  transform: rotate(30deg);
+  z-index: 2;
+}
+
+.avatar__shadow--color2 {
+  background-color: rgba(240, 227, 202, 0.72);
+  transform: rotate(-24deg);
 }/*# sourceMappingURL=main.css.map */
