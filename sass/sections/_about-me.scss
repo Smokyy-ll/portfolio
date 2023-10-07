@@ -1,0 +1,27 @@
+.about-me {
+    // padding-top: 64px;
+
+    // по макету 64
+    padding-top: 68px;
+    padding-bottom: 64px;
+
+    &__content {
+        display: flex;
+        column-gap: 32px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon-wrapper {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    &__discription-wrapper {
+        font-size: 24px;
+        max-width: 904px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+}
