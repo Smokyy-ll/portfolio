@@ -478,4 +478,73 @@ body {
 }
 .skills-card--git:hover .button-action {
   border-color: #F25234;
+}
+
+.works-row {
+  display: flex;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  justify-content: center;
+}
+
+.project-card {
+  max-width: 320px;
+  max-height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card:hover .project-info {
+  transform: translateY(100%);
+}
+
+.project-info {
+  transition: transform 0.8s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40.5px;
+  padding-bottom: 40.5px;
+  background-color: rgba(33, 32, 29, 0.8);
+  position: absolute;
+  top: -100%;
+  width: 100%;
+}
+.project-info .wrapper-context-title {
+  margin-bottom: 16px;
+}
+
+.project-info__top {
+  border-bottom: 1px solid rgba(255, 129, 3, 0.72);
+  max-width: 200px;
+  padding-bottom: 16px;
+}
+
+.project-info__stack {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.project-info__bottom {
+  max-width: 219px;
+  padding-top: 16px;
+}
+
+.project-info__discription {
+  margin-bottom: 16px;
+}
+
+.project-info__action {
+  text-align: center;
+}
+
+.link-other-page {
+  background-color: #32312E;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 39px;
+  display: inline-block;
+  border-radius: 4px;
 }/*# sourceMappingURL=main.css.map */
