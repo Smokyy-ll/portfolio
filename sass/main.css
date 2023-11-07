@@ -250,7 +250,7 @@ body {
 @media (max-width: 1244px) {
   .main-header__content {
     flex-direction: column;
-    row-gap: 16px;
+    row-gap: 23px;
   }
 }
 @media (max-width: 1244px) {
@@ -275,6 +275,18 @@ body {
   align-items: center;
   -moz-column-gap: 137px;
        column-gap: 137px;
+}
+@media (max-width: 1244px) {
+  .preview__content {
+    flex-direction: column;
+    row-gap: 64px;
+  }
+}
+@media (max-width: 1244px) {
+  .preview {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
 }
 
 .about-me {
