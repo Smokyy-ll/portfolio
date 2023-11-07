@@ -143,7 +143,11 @@ footer{
    margin-right: auto;
    padding-left: 15px;
    padding-right: 15px;
+
+   @media(max-width: 1244px) {
+      max-width: 662px;
    }
+}
 
 /* Utility */
 
