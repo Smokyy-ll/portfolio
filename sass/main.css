@@ -301,6 +301,7 @@ body {
   align-items: center;
 }
 .about-me__icon-wrapper {
+  flex-shrink: 0;
   max-width: 100px;
   max-height: 100px;
 }
@@ -309,6 +310,13 @@ body {
   max-width: 904px;
   font-weight: 400;
   line-height: normal;
+}
+@media (max-width: 1244px) {
+  .about-me__discription-wrapper {
+    max-width: 451px;
+    font-size: 22px;
+    line-height: 1.16;
+  }
 }
 
 .skills {

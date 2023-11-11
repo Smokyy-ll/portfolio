@@ -13,6 +13,7 @@
     }
 
     &__icon-wrapper {
+        flex-shrink: 0;
         max-width: 100px;
         max-height: 100px;
     }
@@ -22,6 +23,12 @@
         max-width: 904px;
         font-weight: 400;
         line-height: normal;
+
+        @media (max-width: 1244px) {
+            max-width: 451px;
+            font-size: 22px;
+            line-height: 1.16;
+        }
     }
 
 }
