@@ -10,4 +10,9 @@
     display: flex;
     column-gap: 16px;
     justify-content: center;
+    flex-wrap: wrap;
+
+    @media (max-width: 1244px) {
+        row-gap: 16px;
+    }
 }

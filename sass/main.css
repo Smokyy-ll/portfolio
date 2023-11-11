@@ -329,6 +329,12 @@ body {
   -moz-column-gap: 16px;
        column-gap: 16px;
   justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 1244px) {
+  .skills-row {
+    row-gap: 16px;
+  }
 }
 
 .my-works {
@@ -498,7 +504,7 @@ body {
 
 .skills-card {
   padding-top: 60px;
-  padding-bottom: 58px;
+  padding-bottom: 40px;
   background-color: #1f1e1b;
   border-radius: 10px;
   min-width: 200px;
