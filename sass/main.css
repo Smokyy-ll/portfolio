@@ -1,4 +1,5 @@
 /* Reset and base styles  */
+@import url(/fonts/ofont.ru_Impact.ttf);
 * {
   padding: 0px;
   margin: 0px;
@@ -349,9 +350,23 @@ body {
 .footer .wrapper-context-title {
   text-align: left;
 }
+@media (max-width: 1244px) {
+  .footer .wrapper-context-title {
+    text-align: center;
+    font-family: "Impact", Impact;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+}
 .footer .logo {
   max-width: 213px;
   margin-bottom: 16px;
+}
+@media (max-width: 1244px) {
+  .footer .logo {
+    margin: 0 auto 16px;
+  }
 }
 
 .footer__content {
@@ -360,9 +375,21 @@ body {
   -moz-column-gap: 64px;
        column-gap: 64px;
 }
+@media (max-width: 1244px) {
+  .footer__content {
+    flex-direction: column;
+    row-gap: 64px;
+    align-items: center;
+  }
+}
 
 .discription {
   max-width: 213px;
+}
+@media (max-width: 1244px) {
+  .discription {
+    max-width: 339px;
+  }
 }
 
 .discription__text {

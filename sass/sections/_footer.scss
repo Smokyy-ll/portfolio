@@ -4,10 +4,22 @@
     
     .wrapper-context-title {
         text-align: left;
+
+        @media (max-width: 1244px) {
+            text-align: center;
+            font-family: 'Impact', Impact;
+            font-size: 32px;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
     }
     .logo {
         max-width: 213px;
         margin-bottom: 16px;
+
+            @media (max-width: 1244px) {
+                margin: 0 auto 16px;
+            }
     }
 }
 
@@ -15,10 +27,20 @@
     display: flex;
     justify-content: center;
     column-gap: 64px;
+
+        @media (max-width: 1244px) {
+            flex-direction: column;
+            row-gap: 64px;
+            align-items: center;
+        }
 }
 
 .discription {
     max-width: 213px;
+
+        @media (max-width: 1244px) {
+            max-width: 339px;
+        }
 }
 
 
