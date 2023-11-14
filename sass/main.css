@@ -588,6 +588,13 @@ body {
        column-gap: 16px;
   justify-content: center;
 }
+@media (max-width: 1244px) {
+  .works-row {
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+  }
+}
 
 .project-card {
   max-width: 320px;
