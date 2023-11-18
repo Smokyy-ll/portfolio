@@ -265,6 +265,11 @@ body {
     padding-bottom: 16px;
   }
 }
+@media (max-width: 662px) {
+  .main-header .container {
+    display: none;
+  }
+}
 
 .main-menu__list-menu {
   display: flex;
