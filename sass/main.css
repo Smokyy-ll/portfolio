@@ -243,6 +243,11 @@ body {
 .main-header {
   padding-top: 20.5px;
   padding-bottom: 20.5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
 }
 .main-header__content {
   display: flex;
@@ -696,4 +701,45 @@ body {
   line-height: 39px;
   display: inline-block;
   border-radius: 4px;
+}
+
+.mobile-menu {
+  display: none;
+}
+@media (max-width: 662px) {
+  .mobile-menu {
+    display: flex;
+  }
+}
+.mobile-menu .logo {
+  z-index: 2;
+}
+
+.main-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-menu__list-menu {
+  flex-direction: column;
+  text-align: center;
+  row-gap: 64px;
+}
+
+.burger {
+  z-index: 2;
+}
+
+.burger__line {
+  width: 36px;
+  height: 4px;
+  background-color: #f0e3ca;
+  display: inline-block;
 }/*# sourceMappingURL=main.css.map */

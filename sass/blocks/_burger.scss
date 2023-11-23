@@ -1,0 +1,11 @@
+.burger {
+    z-index: 2;
+}
+
+.burger__line {
+    width: 36px;
+    height: 4px;
+    background-color: $colorText;
+    display: inline-block;
+
+}
