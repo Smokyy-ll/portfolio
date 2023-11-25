@@ -3,7 +3,13 @@
     &__avatar__background {
         max-width: 629px;
         max-height: 575px;
+
+            @media (max-width: 662px) {
+                max-width: 413px;
+                max-height: 429px;
+            }
     }
+
 
 
 }
