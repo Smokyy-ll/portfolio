@@ -386,6 +386,12 @@ body {
     row-gap: 16px;
   }
 }
+@media (max-width: 662px) {
+  .skills-row {
+    max-width: 285px;
+    margin: 0 auto;
+  }
+}
 
 .my-works {
   padding-top: 64px;
@@ -620,9 +626,30 @@ body {
   width: 113px;
   height: 128px;
 }
+@media (max-width: 662px) {
+  .skills-card--html .skills-card__holder-picture, .skills-card--css .skills-card__holder-picture {
+    width: 28px;
+    height: 32px;
+  }
+}
 .skills-card--js .skills-card__holder-picture, .skills-card--scss .skills-card__holder-picture, .skills-card--git .skills-card__holder-picture {
   width: 128px;
   height: 128px;
+}
+@media (max-width: 662px) {
+  .skills-card--js .skills-card__holder-picture, .skills-card--scss .skills-card__holder-picture, .skills-card--git .skills-card__holder-picture {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (max-width: 662px) {
+  .skills-card {
+    width: 100%;
+    flex-direction: row;
+    padding: 14px 32px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
 }
 
 .skill-icon {

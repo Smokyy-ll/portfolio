@@ -12,7 +12,14 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    @media (max-width: 1244px) {
-        row-gap: 16px;
-    }
+        @media (max-width: 1244px) {
+            row-gap: 16px;
+        }
+
+        @media (max-width: 662px) {
+            max-width: 285px;
+            margin: 0 auto;
+        }
+
+
 }
