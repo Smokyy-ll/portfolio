@@ -339,6 +339,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 662px) {
+  .about-me__content {
+    flex-direction: column;
+    row-gap: 32px;
+  }
+}
 .about-me__icon-wrapper {
   flex-shrink: 0;
   max-width: 100px;
@@ -355,6 +361,11 @@ body {
     max-width: 451px;
     font-size: 22px;
     line-height: 1.16;
+  }
+}
+@media (max-width: 662px) {
+  .about-me__discription-wrapper {
+    max-width: 322px;
   }
 }
 
