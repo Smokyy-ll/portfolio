@@ -31,11 +31,16 @@
                 padding-bottom: 128px;
             }
 
-            @media (max-width: 1244px) {
-                padding-top: 142px;
+            @media (max-width:662px) {
+                padding-top: 220px;
                 padding-bottom: 142px;
             }
 
+            @media (max-width: 662px) {
+                .info-author {
+                    max-width: 314px;
+                }
+            }
 }
 
 

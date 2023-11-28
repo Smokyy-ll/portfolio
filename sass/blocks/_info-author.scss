@@ -1,8 +1,14 @@
 .info-author {
     max-width: 448px;
+
+    @media (max-width: 662px) {
+        max-width: 314px;
+    }
     
     &__discription {
         font-size: 20px;
-    
+            @media (max-width: 662px) {
+                font-size: 24px;
+            }
     }
 }

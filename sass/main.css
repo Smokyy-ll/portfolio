@@ -316,10 +316,15 @@ body {
     padding-bottom: 128px;
   }
 }
-@media (max-width: 1244px) {
+@media (max-width: 662px) {
   .preview {
-    padding-top: 142px;
+    padding-top: 220px;
     padding-bottom: 142px;
+  }
+}
+@media (max-width: 662px) {
+  .preview .info-author {
+    max-width: 314px;
   }
 }
 
@@ -469,8 +474,18 @@ body {
 .info-author {
   max-width: 448px;
 }
+@media (max-width: 662px) {
+  .info-author {
+    max-width: 314px;
+  }
+}
 .info-author__discription {
   font-size: 20px;
+}
+@media (max-width: 662px) {
+  .info-author__discription {
+    font-size: 24px;
+  }
 }
 
 .wrapper-main-title {
