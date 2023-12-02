@@ -1,0 +1,81 @@
+@mixin action-card($color) {
+
+            .skill-icon {
+                fill: $color;
+                filter: drop-shadow (0 0 5px  $color);
+            }
+            .skills-card__holder-picture {
+                filter: drop-shadow (0 0 5px  $color);
+            }
+            .button-action {
+                border-color: $color; 
+            }
+
+}
+
+// @mixin _662 {
+//         .skills-card--html:hover {
+//             .skill-icon {
+//                 fill: $firstSkillColor;
+//                 filter: drop-shadow (0 0 5px  $firstSkillColor);
+//             }
+//             .skills-card__holder-picture {
+//                 filter: drop-shadow (0 0 5px  $firstSkillColor);
+//             }
+//             .button-action {
+//                 border-color: $firstSkillColor;
+//             }
+//         }
+        
+//         .skills-card--css:hover {
+//             .skill-icon {
+//                 fill: $secondSkillColor;
+//                 filter: drop-shadow (0 0 5px  $secondSkillColor);
+//             }
+//             .skills-card__holder-picture {
+//                 filter: drop-shadow (0 0 5px  $secondSkillColor);
+//             }
+//             .button-action {
+//                 border-color: $secondSkillColor;
+//             }
+//         }
+        
+//         .skills-card--js:hover {
+//             .skill-icon {
+//                 fill: $thirdSkillColor;
+//                 filter: drop-shadow (0 0 5px  $thirdSkillColor);
+//             }
+//             .skills-card__holder-picture {
+//                 filter: drop-shadow (0 0 5px  $thirdSkillColor);
+//             }
+//             .button-action {
+//                 border-color: $thirdSkillColor;
+//             }
+//         }
+        
+//         .skills-card--scss:hover {
+//             .skill-icon {
+//                 fill: $fourthSkillColor;
+//                 filter: drop-shadow (0 0 5px  $fourthSkillColor);
+//             }
+//             .skills-card__holder-picture {
+//                 filter: drop-shadow (0 0 5px  $fourthSkillColor);
+//             }
+//             .button-action {
+//                 border-color: $fourthSkillColor;
+//             }
+//         }
+        
+//         .skills-card--git:hover {
+//             .skill-icon {
+//                 fill: $fifthSkillColor;
+//                 filter: drop-shadow (0 0 5px  $fifthSkillColor);
+//             }
+//             .skills-card__holder-picture {
+//                 filter: drop-shadow (0 0 5px  $fifthSkillColor);
+//             }
+//             .button-action {
+//                 border-color: $fifthSkillColor;
+//             }
+//         }
+// }

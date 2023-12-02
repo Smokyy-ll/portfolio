@@ -622,6 +622,56 @@ body {
   align-items: center;
   row-gap: 30px;
 }
+.skills-card .skills-card--html:hover .skill-icon {
+  fill: #FC490B;
+  filter: drop-shadow 0 0 5px #FC490B;
+}
+.skills-card .skills-card--html:hover .skills-card__holder-picture {
+  filter: drop-shadow 0 0 5px #FC490B;
+}
+.skills-card .skills-card--html:hover .button-action {
+  border-color: #FC490B;
+}
+.skills-card .skills-card--css:hover .skill-icon {
+  fill: #2196F4;
+  filter: drop-shadow 0 0 5px #2196F4;
+}
+.skills-card .skills-card--css:hover .skills-card__holder-picture {
+  filter: drop-shadow 0 0 5px #2196F4;
+}
+.skills-card .skills-card--css:hover .button-action {
+  border-color: #2196F4;
+}
+.skills-card .skills-card--js:hover .skill-icon {
+  fill: #FFDF00;
+  filter: drop-shadow 0 0 5px #FFDF00;
+}
+.skills-card .skills-card--js:hover .skills-card__holder-picture {
+  filter: drop-shadow 0 0 5px #FFDF00;
+}
+.skills-card .skills-card--js:hover .button-action {
+  border-color: #FFDF00;
+}
+.skills-card .skills-card--scss:hover .skill-icon {
+  fill: #CA669B;
+  filter: drop-shadow 0 0 5px #CA669B;
+}
+.skills-card .skills-card--scss:hover .skills-card__holder-picture {
+  filter: drop-shadow 0 0 5px #CA669B;
+}
+.skills-card .skills-card--scss:hover .button-action {
+  border-color: #CA669B;
+}
+.skills-card .skills-card--git:hover .skill-icon {
+  fill: #F25234;
+  filter: drop-shadow 0 0 5px #F25234;
+}
+.skills-card .skills-card--git:hover .skills-card__holder-picture {
+  filter: drop-shadow 0 0 5px #F25234;
+}
+.skills-card .skills-card--git:hover .button-action {
+  border-color: #F25234;
+}
 .skills-card--html .skills-card__holder-picture, .skills-card--css .skills-card__holder-picture {
   width: 113px;
   height: 128px;
@@ -655,61 +705,6 @@ body {
 .skill-icon {
   fill: #F0E3CA;
   transition: fill 0.5s;
-}
-
-.skills-card--html:hover .skill-icon {
-  fill: #FC490B;
-  filter: drop-shadow 0 0 5px #FC490B;
-}
-.skills-card--html:hover .skills-card__holder-picture {
-  filter: drop-shadow 0 0 5px #FC490B;
-}
-.skills-card--html:hover .button-action {
-  border-color: #FC490B;
-}
-
-.skills-card--css:hover .skill-icon {
-  fill: #2196F4;
-  filter: drop-shadow 0 0 5px #2196F4;
-}
-.skills-card--css:hover .skills-card__holder-picture {
-  filter: drop-shadow 0 0 5px #2196F4;
-}
-.skills-card--css:hover .button-action {
-  border-color: #2196F4;
-}
-
-.skills-card--js:hover .skill-icon {
-  fill: #FFDF00;
-  filter: drop-shadow 0 0 5px #FFDF00;
-}
-.skills-card--js:hover .skills-card__holder-picture {
-  filter: drop-shadow 0 0 5px #FFDF00;
-}
-.skills-card--js:hover .button-action {
-  border-color: #FFDF00;
-}
-
-.skills-card--scss:hover .skill-icon {
-  fill: #CA669B;
-  filter: drop-shadow 0 0 5px #CA669B;
-}
-.skills-card--scss:hover .skills-card__holder-picture {
-  filter: drop-shadow 0 0 5px #CA669B;
-}
-.skills-card--scss:hover .button-action {
-  border-color: #CA669B;
-}
-
-.skills-card--git:hover .skill-icon {
-  fill: #F25234;
-  filter: drop-shadow 0 0 5px #F25234;
-}
-.skills-card--git:hover .skills-card__holder-picture {
-  filter: drop-shadow 0 0 5px #F25234;
-}
-.skills-card--git:hover .button-action {
-  border-color: #F25234;
 }
 
 .works-row {
