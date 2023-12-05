@@ -8,103 +8,60 @@
     flex-direction: column;
     align-items: center;
     row-gap: 30px;
-
+    
     &--html,
     &--css {
-        .skills-card__holder-picture {
-            width: 113px;
-            height: 128px;
-
-                @media (max-width: 662px) {
-                    width: 28px;
-                    height: 32px;
-                }
-        }
+    .skills-card__holder-picture {
+    width: 113px;
+    height: 128px;
+    
+    @media (max-width: 662px) {
+    width: 28px;
+    height: 32px;
     }
-
+    }
+    }
+    
     &--js,
     &--scss,
     &--git {
-        .skills-card__holder-picture {
-            width: 128px;
-            height: 128px;
-
-                @media (max-width: 662px) {
-                    width: 32px;
-                    height: 32px;
-                }
-        }
+    .skills-card__holder-picture {
+    width: 128px;
+    height: 128px;
+    
+    @media (max-width: 662px) {
+    width: 32px;
+    height: 32px;
     }
-
-        @media (max-width: 662px) {
-            width: 100%;
-            flex-direction: row;
-            padding: 14px 32px;
-            column-gap: 20px;
-        }
-}
-
-.skill-icon {
-    fill:   #F0E3CA;
+    }
+    }
+    
+    // изменение
+    .skill-icon {
+    fill: $colorText;
     transition: fill 0.5s;
-}
-
-.skills-card--html:hover {
-    @include action-card(red);
-}
-
-// .skills-card--css:hover {
-//     .skill-icon {
-//         fill: $secondSkillColor;
-//         filter: drop-shadow (0 0 5px  $secondSkillColor);
-//     }
-//     .skills-card__holder-picture {
-//         filter: drop-shadow (0 0 5px  $secondSkillColor);
-//     }
-//     .button-action {
-//         border-color: $secondSkillColor;
-//     }
-// }
-
-// .skills-card--js:hover {
-//     .skill-icon {
-//         fill: $thirdSkillColor;
-//         filter: drop-shadow (0 0 5px  $thirdSkillColor);
-//     }
-//     .skills-card__holder-picture {
-//         filter: drop-shadow (0 0 5px  $thirdSkillColor);
-//     }
-//     .button-action {
-//         border-color: $thirdSkillColor;
-//     }
-// }
-
-// .skills-card--scss:hover {
-//     .skill-icon {
-//         fill: $fourthSkillColor;
-//         filter: drop-shadow (0 0 5px  $fourthSkillColor);
-//     }
-//     .skills-card__holder-picture {
-//         filter: drop-shadow (0 0 5px  $fourthSkillColor);
-//     }
-//     .button-action {
-//         border-color: $fourthSkillColor;
-//     }
-// }
-
-// .skills-card--git:hover {
-//     .skill-icon {
-//         fill: $fifthSkillColor;
-//         filter: drop-shadow (0 0 5px  $fifthSkillColor);
-//     }
-//     .skills-card__holder-picture {
-//         filter: drop-shadow (0 0 5px  $fifthSkillColor);
-//     }
-//     .button-action {
-//         border-color: $fifthSkillColor;
-//      }
-// }
-
-.skills-card__holder-picture {
-
-}
+    }
+    
+    
+    @media (max-width: 662px) {
+    width: 100%;
+    flex-direction: row;
+    padding: 14px 32px;
+    column-gap: 20px;
+    }
+    }
+    
+    // изменение========================
+    .skills-card--html {
+    @include changeHover($firstSkillColor);
+    }
+    
+    .skills-card--css {
+    @include changeHover($secondSkillColor);
+    }
+    // ======================================
+    
+    
+    .skills-card__holder-picture {
+    
+    }

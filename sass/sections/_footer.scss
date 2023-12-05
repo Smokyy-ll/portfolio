@@ -52,7 +52,6 @@
 }
 
 .footer__contacts {
-    max-width: 390px;
 }
 
 .contacts-icons {
@@ -63,6 +62,11 @@
     column-gap: 48px;
     row-gap: 32px;
     flex-wrap: wrap;
+    max-width: 390px;
+
+        @media (max-width: 662px) {
+            flex-direction: column;
+        }
 }
 
 .contacts-list__item {
