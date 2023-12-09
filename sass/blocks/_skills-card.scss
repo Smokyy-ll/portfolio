@@ -59,6 +59,18 @@
     .skills-card--css {
     @include changeHover($secondSkillColor);
     }
+
+    .skills-card--js {
+        @include changeHover($thirdSkillColor);
+        }
+
+    .skills-card--scss {
+        @include changeHover($fourthSkillColor);
+        }
+
+    .skills-card--git {
+        @include changeHover($fifthSkillColor);
+        }
     // ======================================
     
     

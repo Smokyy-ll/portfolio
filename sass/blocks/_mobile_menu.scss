@@ -2,6 +2,7 @@
     display: none;
     padding-left: 15px;
     padding-right: 15px;
+    width: 100%;
 
 
         @media (max-width: 662px) {
@@ -13,26 +14,29 @@
         .logo {
             z-index: 2;
         }
+
+        .main-menu {
+            position: fixed;
+            top: -100%;
+            left: 0;
+            height: 100vh;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(5px);
+            transform: translateY(-100%);
+        }
+        
+        .main-menu__list-menu {
+            flex-direction: column;
+            text-align: center;
+            row-gap: 64px;
+        }
 }
 
 
-.main-menu {
-    position: fixed;
-    top: -100%;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.main-menu__list-menu {
-    flex-direction: column;
-    text-align: center;
-    row-gap: 64px;
-}
 
 .main-menu__list-item {
 }
