@@ -29,6 +29,9 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- scripts -->
+    <script src="./js/main/app.js" defer="defer"></script>
 </head>
 <body>
     <!-- svg спрайты -->
@@ -98,10 +101,10 @@
 
                 <nav class="main-menu">
                     <ul class="main-menu__list-menu">
-                        <li class="main-menu__list-item"><a href="#!" class="anchor-link">about me</a></li>
-                        <li class="main-menu__list-item"><a href="#!" class="anchor-link">skills</a></li>
-                        <li class="main-menu__list-item"><a href="#!" class="anchor-link">pet-projects</a></li>
-                        <li class="main-menu__list-item"><a href="#!" class="anchor-link">contacts</a></li>
+                        <li class="main-menu__list-item"><a href="#about-me" class="anchor-link">about me</a></li>
+                        <li class="main-menu__list-item"><a href="#skills" class="anchor-link">skills</a></li>
+                        <li class="main-menu__list-item"><a href="#pet-projects" class="anchor-link">pet-projects</a></li>
+                        <li class="main-menu__list-item"><a href="#contacts" class="anchor-link">contacts</a></li>
                     </ul>
                 </nav>
 
@@ -111,12 +114,12 @@
         <div class="mobile-menu">
             <div class="logo"><img src="./img/logo.svg" alt="logo"></div>
 
-            <nav class="main-menu">
+            <nav class="main-menu" id="main-menu">
                 <ul class="main-menu__list-menu">
-                    <li class="main-menu__list-item"><a href="#!" class="anchor-link">about me</a></li>
-                    <li class="main-menu__list-item"><a href="#!" class="anchor-link">skills</a></li>
-                    <li class="main-menu__list-item"><a href="#!" class="anchor-link">pet-projects</a></li>
-                    <li class="main-menu__list-item"><a href="#!" class="anchor-link">contacts</a></li>
+                    <li class="main-menu__list-item"><a href="#about-me" class="anchor-link anchor-link--mobile">about me</a></li>
+                    <li class="main-menu__list-item"><a href="#skills" class="anchor-link anchor-link--mobile">skills</a></li>
+                    <li class="main-menu__list-item"><a href="#pet-projects" class="anchor-link anchor-link--mobile">pet-projects</a></li>
+                    <li class="main-menu__list-item"><a href="#contacts" class="anchor-link anchor-link--mobile">contacts</a></li>
                 </ul>
             </nav>
             
@@ -167,7 +170,7 @@
         </section>
 
 
-        <section class="about-me">
+        <section class="about-me" id="about-me">
             <div class="container">
                 <div class="about-me__content">
 
@@ -182,7 +185,7 @@
         </section>
 
 
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="container">
                 <div class="skills__content">
 
@@ -253,7 +256,7 @@
         </section>
 
         
-        <section class="my-works">
+        <section class="my-works" id="pet-projects">
             <div class="container">
                 <div class="my-works__content">
 
@@ -321,7 +324,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contacts">
         <div class="container">
             <div class="footer__content">
 
