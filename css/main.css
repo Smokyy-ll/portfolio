@@ -993,6 +993,20 @@ body {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+@media (hover: hover) {
+  .slider__arrow path {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .slider__arrow:hover path {
+    fill: #ff8303;
+  }
+}
+.slider__arrow:active path {
+  fill: rgba(255, 129, 3, 0.72);
+  -webkit-transition: 0s;
+  transition: 0s;
+}
 
 .slider__arrow--left {
   left: -35px;

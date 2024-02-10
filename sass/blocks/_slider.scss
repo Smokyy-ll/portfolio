@@ -23,14 +23,35 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    @media (hover:hover) {
+        path {
+            transition: 0.5s;    
+        }
+        &:hover {
+            path {
+                fill: $colorHeading;
+            }
+        }
+    }
+
+    &:active {
+        path {
+            fill: $shadowFirstColor;
+            transition: 0s;
+        }
+    }
 }
 
 .slider__arrow--left {
     left: -35px;
+
+
 }
+    
 
 .slider__arrow--right {
     right: -35px;
+
 
 }
 
