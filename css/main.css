@@ -552,6 +552,10 @@ body {
   color: #ff8303;
 }
 
+.reviews {
+  padding: 64px 0;
+}
+
 .anchor-link {
   color: #f0e3ca;
   font-size: 20px;
@@ -981,9 +985,50 @@ body {
 }
 
 .slider-review__slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #1f1e1b;
   margin-left: 15px;
   margin-right: 15px;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.slider-review__photo {
+  width: 225px;
+  height: 225px;
+  border-radius: 25%;
+  overflow: hidden;
+}
+
+.slider-review__text {
+  max-width: 650px;
+  min-height: 195px;
+}
+
+.slider-review__name {
+  margin-bottom: 5px;
+  font-size: 30px;
+  color: #ff8303;
+  font-weight: 600;
+}
+
+.slider-review__profession {
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.slider-review__review {
+  max-width: 650px;
+  font-size: 20px;
 }
 
 .slider__arrow {

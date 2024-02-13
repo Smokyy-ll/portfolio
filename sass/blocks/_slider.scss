@@ -1,7 +1,10 @@
+
+
 .slider-review {
     width: 80%;
     margin: 0 auto;
     position: relative;
+
 }
 
 .slick-list {
@@ -13,22 +16,42 @@
 }
 
 .slider-review__slide {
+    display: flex;
     background-color: $backgroundCard;
     margin-left: 15px;
     margin-right: 15px;
+    column-gap: 50px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .slider-review__photo {
+    width: 225px;
+    height: 225px;
+    border-radius: 25%;
+    overflow: hidden;
 }
 .slider-review__text {
+    max-width: 650px;
+    min-height: 195px;
 }
 .slider-review__info {
 }
 .slider-review__name {
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: $colorHeading;
+    font-weight: 600;
 }
 .slider-review__profession {
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 500;
 }
 .slider-review__review {
+    max-width: 650px;
+    font-size: 20px;
 }
 
 .slider__arrow {
