@@ -15,31 +15,26 @@
 
         &__content {
             display: flex;
-            column-gap: 522px;
             align-items: center;
             margin: 0 auto;
-            justify-content: center;
+            justify-content: space-between;
             max-width: 1200px;
 
-            @media (max-width: 1244px) {
+            @media (max-width: 768px) {
                 flex-direction: column;
                 row-gap: 23px;
+                padding: 16px 0;
             }
         }   
         
-        @media (max-width: 1244px) {
-            padding-top: 16px;
-            padding-bottom: 16px;    
-        }
-
-        @media (max-width: 662px) {
-            padding-top: 20.5px;
-            padding-bottom: 20.5px;
-            
-            .container {
-                display: none;
+            @media (max-width: 570px) {
+                padding-top: 20.5px;
+                padding-bottom: 20.5px;
+                
+                .container {
+                    display: none;
+                }
             }
-        }
 
 }
 
