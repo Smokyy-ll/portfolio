@@ -363,7 +363,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-@media (max-width: 662px) {
+@media (max-width: 570px) {
   .about-me__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -384,16 +384,10 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-@media (max-width: 1244px) {
+@media (max-width: 768px) {
   .about-me__discription-wrapper {
-    max-width: 451px;
     font-size: 22px;
     line-height: 1.16;
-  }
-}
-@media (max-width: 662px) {
-  .about-me__discription-wrapper {
-    max-width: 322px;
   }
 }
 
