@@ -699,6 +699,7 @@ body {
 }
 @media (max-width: 662px) {
   .skills-card {
+    max-width: 285px;
     width: 100%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

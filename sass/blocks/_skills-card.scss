@@ -11,29 +11,29 @@
     
     &--html,
     &--css {
-    .skills-card__holder-picture {
-    width: 113px;
-    height: 128px;
+        .skills-card__holder-picture {
+            width: 113px;
+            height: 128px;
     
-    @media (max-width: 662px) {
-    width: 28px;
-    height: 32px;
-    }
-    }
+            @media (max-width: 662px) {
+                width: 28px;
+                height: 32px;
+            }
+        }
     }
     
     &--js,
     &--scss,
     &--git {
-    .skills-card__holder-picture {
-    width: 128px;
-    height: 128px;
+        .skills-card__holder-picture {
+            width: 128px;
+            height: 128px;
     
-    @media (max-width: 662px) {
-    width: 32px;
-    height: 32px;
-    }
-    }
+            @media (max-width: 662px) {
+                width: 32px;
+                height: 32px;
+            }
+        }
     }
     
     // изменение
@@ -44,10 +44,11 @@
     
     
     @media (max-width: 662px) {
-    width: 100%;
-    flex-direction: row;
-    padding: 14px 32px;
-    column-gap: 20px;
+        max-width: 285px;
+        width: 100%;
+        flex-direction: row;
+        padding: 14px 32px;
+        column-gap: 20px;
     }
     }
     
