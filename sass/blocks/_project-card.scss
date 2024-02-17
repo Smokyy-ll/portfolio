@@ -1,13 +1,8 @@
 .works-row {
     display: flex;
-    column-gap: 16px;
+    gap: 16px;
     justify-content: center;
-
-        @media (max-width: 1244px) {
-            flex-direction: column;
-            row-gap: 16px;
-            align-items: center;
-        }
+    flex-wrap: wrap;
 }
 .project-card {
     max-width: 320px;

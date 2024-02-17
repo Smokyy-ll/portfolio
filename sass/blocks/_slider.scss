@@ -4,7 +4,14 @@
     width: 80%;
     margin: 0 auto;
     position: relative;
-
+    
+    @media (max-width: 1024px) {
+        width: 90%;
+    }
+    
+    @media (max-width: 550px) {
+        width: 100%;
+    }
 }
 
 .slick-list {
@@ -24,6 +31,9 @@
     align-items: center;
     padding: 15px;
     border-radius: 10px;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .slider-review__photo {
@@ -31,12 +41,19 @@
     height: 225px;
     border-radius: 25%;
     overflow: hidden;
+    flex-shrink: 0;
+    @media (max-width: 768px) {
+        margin-bottom: 15px;
+    }
 }
 .slider-review__text {
     max-width: 650px;
     min-height: 195px;
 }
 .slider-review__info {
+    @media (max-width: 768px) {
+        text-align: center;
+    }
 }
 .slider-review__name {
     margin-bottom: 5px;
@@ -74,6 +91,10 @@
             fill: $shadowFirstColor;
             transition: 0s;
         }
+    }
+
+    @media (max-width: 550px) {
+        display: none !important;
     }
 }
 
