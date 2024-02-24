@@ -1,13 +1,36 @@
 .skills-card {
-    padding-top: 60px;
-    padding-bottom: 40px;
-    background-color: $backgroundCard;
-    border-radius: 10px;
+    position: relative;
     min-width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 30px;
+    
+    &__front {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+        background-color: $backgroundCard;
+        transform: perspective(600px) rotateY(0deg);
+        padding-top: 60px;
+        padding-bottom: 40px;
+        border-radius: 10px;
+        
+    }
+
+    &__back{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        background-color: rgb(34, 85, 179);
+        transform: perspective(600px) rotateY(180deg);
+    }
+
+    .front,
+    .back{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        backface-visibility: hidden;
+        position: absolute;
+        transition: transform 1s;
+    }
     
     &--html,
     &--css {
