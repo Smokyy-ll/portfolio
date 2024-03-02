@@ -654,6 +654,21 @@ body {
   transition: border-color 0.5s;
 }
 
+.fade-block {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: -100%;
+  left: 0;
+  z-index: 5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.fade-block.open {
+  top: 0;
+}
+
 .skills-card {
   position: relative;
   min-width: 200px;
@@ -703,7 +718,7 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%) rotateY(0deg);
           transform: translate(-50%, -50%) rotateY(0deg);
-  z-index: 2;
+  z-index: 6;
 }
 .skills-card.active .skills-card__front {
   -webkit-transform: perspective(600px) rotateY(-180deg);
