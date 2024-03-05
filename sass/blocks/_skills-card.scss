@@ -34,8 +34,10 @@
     &__back {
         position: absolute;
         color: rgb(255, 255, 255);
-        background-color: rgb(34, 85, 179);
+        background-color: rgba(50, 49, 46, 0.8);
+        backdrop-filter: blur(5px);
         transform: perspective(600px) rotateY(180deg);
+        border-radius: 30px;
     }
 
     &__front,
@@ -54,6 +56,10 @@
         left: 50%;
         transform: translate(-50%, -50%) rotateY(0deg);
         z-index: 6;
+        max-width: 400px;
+        width: 100%;
+        height: 60vh;
+        min-height: 600px;
 
         .skills-card__front{
             transform: perspective(600px) rotateY(-180deg);
@@ -110,8 +116,17 @@
     &__close {
         width: 20px;
         height: 20px;
-        background-color: aliceblue;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
 
+    .cross {
+        transition: transform 0.9s;
+    }
+
+    .cross:hover {
+        transform: rotate(360deg);
     }
 
     }
