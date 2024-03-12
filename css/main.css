@@ -693,6 +693,18 @@ body {
   padding-bottom: 40px;
   border-radius: 10px;
 }
+@media (max-width: 662px) {
+  .skills-card__front {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 14px 32px;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+  }
+}
 .skills-card__back {
   position: absolute;
   color: rgb(255, 255, 255);
@@ -769,14 +781,7 @@ body {
   .skills-card {
     max-width: 285px;
     width: 100%;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    padding: 14px 32px;
-    -webkit-column-gap: 20px;
-       -moz-column-gap: 20px;
-            column-gap: 20px;
+    min-height: 60px;
   }
 }
 .skills-card__close {
