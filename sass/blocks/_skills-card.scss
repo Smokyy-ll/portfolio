@@ -28,6 +28,7 @@
         padding-top: 60px;
         padding-bottom: 40px;
         border-radius: 10px;
+        z-index: 2;
 
         @media (max-width: 662px) {
             flex-direction: row;
@@ -70,10 +71,12 @@
 
         .skills-card__front{
             transform: perspective(600px) rotateY(-180deg);
+            z-index: 1;
         }
         
         .skills-card__back{
             transform: perspective(600px) rotateY(0deg);
+            z-index: 2;
         }
     }
     

@@ -692,6 +692,7 @@ body {
   padding-top: 60px;
   padding-bottom: 40px;
   border-radius: 10px;
+  z-index: 2;
 }
 @media (max-width: 662px) {
   .skills-card__front {
@@ -747,10 +748,12 @@ body {
 .skills-card.active .skills-card__front {
   -webkit-transform: perspective(600px) rotateY(-180deg);
           transform: perspective(600px) rotateY(-180deg);
+  z-index: 1;
 }
 .skills-card.active .skills-card__back {
   -webkit-transform: perspective(600px) rotateY(0deg);
           transform: perspective(600px) rotateY(0deg);
+  z-index: 2;
 }
 .skills-card--html .skills-card__holder-picture, .skills-card--css .skills-card__holder-picture {
   width: 113px;
