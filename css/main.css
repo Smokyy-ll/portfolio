@@ -659,14 +659,17 @@ body {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  top: -100%;
+  top: 0;
   left: 0;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
   z-index: 5;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .fade-block.open {
-  top: 0;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .skills-card {

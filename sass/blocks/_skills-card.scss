@@ -3,13 +3,14 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
-    top: -100%;
+    top: 0;
     left: 0;
+    transform: translateY(-100%);
     z-index: 5;
     transition: 0.5s;
 
     &.open {
-        top: 0;
+        transform: translateY(0);
     }
 }
 
