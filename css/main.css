@@ -335,11 +335,9 @@ body {
 }
 @media (max-width: 662px) {
   .preview {
-    padding-top: 220px;
-    padding-bottom: 142px;
+    padding-top: 100px;
+    padding-bottom: 0;
   }
-}
-@media (max-width: 662px) {
   .preview .info-author {
     max-width: 314px;
   }

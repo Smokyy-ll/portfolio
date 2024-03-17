@@ -1,7 +1,4 @@
 .preview {
-    // padding-top: 72.5px;
-
-    // по макету 72.5px
     padding-top: 81.5px;
     padding-bottom: 72.5px;
     
@@ -32,15 +29,14 @@
             }
 
             @media (max-width:662px) {
-                padding-top: 220px;
-                padding-bottom: 142px;
-            }
-
-            @media (max-width: 662px) {
+                padding-top: 100px;
+                padding-bottom: 0;
                 .info-author {
                     max-width: 314px;
                 }
             }
+
+
 }
 
 
