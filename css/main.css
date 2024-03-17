@@ -266,7 +266,7 @@ body {
           justify-content: space-between;
   max-width: 1200px;
 }
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .main-header__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -276,7 +276,7 @@ body {
     padding: 16px 0;
   }
 }
-@media (max-width: 570px) {
+@media (max-width: 665px) {
   .main-header {
     padding-top: 20.5px;
     padding-bottom: 20.5px;
@@ -945,7 +945,7 @@ body {
   padding-right: 15px;
   width: 100%;
 }
-@media (max-width: 570px) {
+@media (max-width: 665px) {
   .mobile-menu {
     display: -webkit-box;
     display: -ms-flexbox;
