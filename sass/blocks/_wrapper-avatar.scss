@@ -1,6 +1,13 @@
 .wrapper-avatar {
     position: relative;
-    &__avatar__background {
+    &__background {
+        // #bgcode {
+        //     position: absolute;
+        //     top: 50%;
+        //     left: 50%;
+        //     transform: translate(-50%, -50%);
+        //     z-index: 1;
+        // }
         max-width: 629px;
         max-height: 575px;
 

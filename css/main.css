@@ -578,12 +578,12 @@ body {
 .wrapper-avatar {
   position: relative;
 }
-.wrapper-avatar__avatar__background {
+.wrapper-avatar__background {
   max-width: 629px;
   max-height: 575px;
 }
 @media (max-width: 662px) {
-  .wrapper-avatar__avatar__background {
+  .wrapper-avatar__background {
     max-width: 413px;
     max-height: 429px;
   }
