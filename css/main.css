@@ -739,8 +739,8 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%) rotateY(0deg);
-          transform: translate(-50%, -50%) rotateY(0deg);
+  -webkit-transform: translate(-50%, -50%) rotateY(0deg) !important;
+          transform: translate(-50%, -50%) rotateY(0deg) !important;
   z-index: 6;
   max-width: 400px;
   width: 100%;
