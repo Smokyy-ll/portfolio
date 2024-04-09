@@ -581,6 +581,7 @@ body {
 .wrapper-avatar__background {
   max-width: 629px;
   max-height: 575px;
+  z-index: 1;
 }
 @media (max-width: 662px) {
   .wrapper-avatar__background {

@@ -75,7 +75,7 @@ function paralax() {
     document.addEventListener('mousemove', function(event){
     const mouseX = event.clientX - initialX;
     const mouseY = event.clientY - initialY;
-
+    
     
     gsap.to(
         '.avatar__shadow--color1', 
@@ -101,15 +101,16 @@ function paralax() {
         ease: 'power2.out' ,
         },);
 
-        // gsap.to(
-        // '#bgcode', 
-        // {
-        // x: mouseX * 0.01, 
-        // y: -mouseY * 0.01, 
-        // ease: 'power2.out' ,
-        // },);
-    }) 
+    //     gsap.to(
+    //     '#bgcode', 
+    //     {
+    //     x: mouseX * 0.01, 
+    //     y: -mouseY * 0.01, 
+    //     ease: 'power2.out' ,
+    //     },);
 
+    
+    }) 
 }
 
 paralax()
