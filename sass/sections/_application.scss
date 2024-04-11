@@ -114,3 +114,14 @@
     color: $colorHeading;
     text-underline-offset: 5px;
 }
+
+.submit {
+    background-color: $colorHeading;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 15px;
+    letter-spacing: 1px;
+}

@@ -61,8 +61,6 @@ button, input[type=submit] {
   display: inline-block;
   -webkit-box-shadow: none;
           box-shadow: none;
-  background-color: transparent;
-  background: none;
   cursor: pointer;
 }
 
@@ -618,6 +616,17 @@ body {
   text-decoration: underline;
   color: #ff8303;
   text-underline-offset: 5px;
+}
+
+.submit {
+  background-color: #ff8303;
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 15px;
+  letter-spacing: 1px;
 }
 
 .anchor-link {
