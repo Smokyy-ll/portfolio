@@ -37,6 +37,13 @@
     font-size: 20px;
     font-family: "Tilt Neon", sans-serif;
     pointer-events: none;
+    transition: 0.5s;
+
+    &.focus {
+        transform: translateY(-150%);
+        color: $shadowSecondColor;
+        font-size: 15px;
+    }
 
     &--message {
         top: 15px;
@@ -55,6 +62,7 @@
 
     &--message {
         resize: vertical;
+        height: 37px;
         min-height: 37px;
         max-height: 400px;
     }
@@ -133,3 +141,4 @@
         border-radius: 25px;
     }
 }
+

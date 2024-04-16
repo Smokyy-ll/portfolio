@@ -546,6 +546,14 @@ body {
   font-size: 20px;
   font-family: "Tilt Neon", sans-serif;
   pointer-events: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.form-application__placeholder.focus {
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
+  color: rgba(240, 227, 202, 0.72);
+  font-size: 15px;
 }
 .form-application__placeholder--message {
   top: 15px;
@@ -562,6 +570,7 @@ body {
 }
 .form-application__input--message {
   resize: vertical;
+  height: 37px;
   min-height: 37px;
   max-height: 400px;
 }
