@@ -505,6 +505,7 @@ body {
 .social-link {
   font-size: 24px;
   color: #ff8303;
+  text-decoration: none;
 }
 
 .reviews {
@@ -642,6 +643,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;
+  text-decoration: none;
 }
 
 .info-author {
