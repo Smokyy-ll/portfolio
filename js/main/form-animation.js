@@ -8,7 +8,7 @@ inputsForm.forEach(input => {
     })
 
     input.addEventListener('blur', () => {
-        if (input.value.trim() < 1) {
+        if (input.value.trim() < 1) {w
             placeholder.classList.remove('focus');
         }
     })

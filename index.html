@@ -39,10 +39,13 @@
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer="defer"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer="defer"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer="defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js" defer="defer"></script>
+
     <script src="./js/main/slider.js" defer="defer"></script>
     <script src="./js/main/skill-card.js" defer="defer"></script>
     <script src="./js/main/animation.js" defer="defer"></script>
     <script src="./js/main/form-animation.js" defer="defer"></script>
+    <script src="./js/main/validation.js" defer="defer"></script>
     
 
 </head>
@@ -475,20 +478,20 @@
         <section class="application">
             <div class="container">
                 <div class="application__content">
-                    <form action="" class="form-application">
+                    <form action="./php/mail.php" class="form-application" id="form">
                         <label for="" class="form-application__item">
                             <span class="form-application__placeholder">Name</span>
-                            <input type="text" class="form-application__input">
+                            <input type="text" class="form-application__input" name="name">
                         </label>
 
                         <label for="" class="form-application__item">
                             <span class="form-application__placeholder">E-mail</span>
-                            <input type="text" class="form-application__input">
+                            <input type="text" class="form-application__input" name="email">
                         </label>
 
                         <label for="" class="form-application__item">
                             <span class="form-application__placeholder form-application__placeholder--message">Message</span>
-                            <textarea name="" id="" class="form-application__input form-application__input--message"></textarea>
+                            <textarea name="message" id="" class="form-application__input form-application__input--message"></textarea>
                         </label>
                         <div class="privacy-policy">
                             <label for="real-checkbox" class="wrapper-checkbox">
@@ -501,6 +504,7 @@
                             <input type="submit" class="submit" value="Submit">
                         </label>
                     </form>
+                    <div id="answer"></div>
                 </div>
             </div>
         </section>
