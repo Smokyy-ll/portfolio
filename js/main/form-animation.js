@@ -5,11 +5,17 @@ inputsForm.forEach(input => {
     const placeholder = formItem.querySelector('.form-application__placeholder');
     input.addEventListener('focus', () => {
         placeholder.classList.add('focus');
+        if (input.id === 'message') {
+            input.classList.add('focus');
+        }
     })
 
     input.addEventListener('blur', () => {
         if (input.value.trim() < 1) {
             placeholder.classList.remove('focus');
+        }
+        if (input.id === 'message') {
+            input.classList.remove('focus');
         }
     })
 })

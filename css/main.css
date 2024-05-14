@@ -563,6 +563,11 @@ body {
   height: 37px;
   min-height: 37px;
   max-height: 400px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.form-application__input--message.focus {
+  height: 400px;
 }
 
 .real-checkbox {
