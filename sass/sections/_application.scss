@@ -20,6 +20,13 @@
     align-items: center;
     padding: 45px 0;
     row-gap: 65px;
+
+    &__title {
+        font-size: 26px;
+        font-weight: 500;
+        font-family: "Tilt Neon", sans-serif;
+        letter-spacing: 1px;
+    }
 }
 
 .form-application__item {
@@ -141,3 +148,7 @@
     }
 }
 
+.success {
+    text-align: center;
+    font-size: 20px;
+}
