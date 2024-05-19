@@ -72,6 +72,19 @@
         min-height: 37px;
         max-height: 400px;
         transition: 0.5s;
+        scrollbar-width: thin;          /* "auto" или "thin"  */
+        scrollbar-color: $colorHeading rgba(122, 122, 122, 0.1);   /* плашка скролла и дорожка */ 
+
+        // &::-webkit-scrollbar {
+        //     width: 12px;               /* ширина scrollbar */
+        // }
+        // &::-webkit-scrollbar-track {
+        //     background: rgba(122, 122, 122, 0.1);        /* цвет дорожки */
+        // }
+        // &::-webkit-scrollbar-thumb {
+        //     background-color: $colorHeading;    /* цвет плашки */
+        //     border-radius: 20px;       /* закругления плашки */
+        // }
 
         &.focus {
             height: 400px;

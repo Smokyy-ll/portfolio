@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reset and base styles  */
 @import url(/fonts/ofont.ru_Impact.ttf);
 * {
@@ -565,6 +566,8 @@ body {
   max-height: 400px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  scrollbar-width: thin; /* "auto" или "thin"  */
+  scrollbar-color: #ff8303 rgba(122, 122, 122, 0.1); /* плашка скролла и дорожка */
 }
 .form-application__input--message.focus {
   height: 400px;
