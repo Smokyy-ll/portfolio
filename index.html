@@ -479,19 +479,19 @@
             <div class="container">
                 <div class="application__content">
                     <form action="./php/mail.php" class="form-application" id="form">
-                        <label for="" class="form-application__item">
-                            <span class="form-application__placeholder">Name</span>
-                            <input type="text" class="form-application__input" name="name">
+                        <label for="" class="form-application__item" data-form-element>
+                            <span class="form-application__placeholder" data-fake-placeholder>Name</span>
+                            <input type="text" class="form-application__input" name="name" data-input>
                         </label>
 
-                        <label for="" class="form-application__item">
-                            <span class="form-application__placeholder">E-mail</span>
-                            <input type="text" class="form-application__input" name="email">
+                        <label for="" class="form-application__item" data-form-element>
+                            <span class="form-application__placeholder" data-fake-placeholder>E-mail</span>
+                            <input type="text" class="form-application__input" name="email" data-input>
                         </label>
 
-                        <label for="" class="form-application__item">
-                            <span class="form-application__placeholder form-application__placeholder--message">Message</span>
-                            <textarea name="message" id="" class="form-application__input form-application__input--message"></textarea>
+                        <label for="" class="form-application__item" data-form-element>
+                            <span class="form-application__placeholder form-application__placeholder--message" data-fake-placeholder>Message</span>
+                            <textarea name="message" id="" class="form-application__input form-application__input--message" data-input></textarea>
                         </label>
                         <div class="privacy-policy">
                             <label for="real-checkbox" class="wrapper-checkbox">
@@ -501,7 +501,7 @@
                             <span class="privacy-policy__rule">I agree with the processing of my <a href="https://www.consultant.ru/document/cons_doc_LAW_61801/" class="personal-data-link" target="_blank">personal data</a></span>
                         </div>
                         <label for="" class="form-application__item">
-                            <input type="submit" class="submit" value="Submit">
+                            <input type="submit" class="submit disabled" value="Submit" disabled id="submit">
                         </label>
                     </form>
                     <div id="answer"></div>
@@ -568,3 +568,6 @@
 
 
 
+<!-- 1. Пофиксить стили автозаполнения -->
+<!-- 2. Забрать с гитхаба код для скролла(css и js) -->
+<!-- 3. Стилизовать ответ в php -->

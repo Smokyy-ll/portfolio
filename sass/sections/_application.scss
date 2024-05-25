@@ -29,6 +29,14 @@
     position: relative;
 }
 
+.form-application__item li {
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+    list-style: none;
+}
+
 .form-application__placeholder {
     position: absolute;
     left: 7px;
@@ -132,12 +140,26 @@
     border-radius: 15px;
     letter-spacing: 1px;
     transition: 0.6s;
+
+    &.disabled {
+        background-color: #7E7E7E;
+    }
 }
 
 @media (hover:hover) {
     .submit:hover {
         background-color: $shadowFirstColor;
         border-radius: 25px;
+
+
+        &.disabled {
+            background-color: #7E7E7E;
+            border-radius: 15px;
+        }
     }
+
 }
 
+.error {
+    color: $colorHeading;
+}
