@@ -20,6 +20,13 @@
     align-items: center;
     padding: 45px 0;
     row-gap: 65px;
+
+    &__title {
+        font-size: 26px;
+        font-weight: 500;
+        font-family: "Tilt Neon", sans-serif;
+        letter-spacing: 1px;
+    }
 }
 
 .form-application__item {
@@ -72,6 +79,24 @@
         height: 37px;
         min-height: 37px;
         max-height: 400px;
+        transition: 0.5s;
+        scrollbar-width: thin;          /* "auto" или "thin"  */
+        scrollbar-color: $colorHeading rgba(122, 122, 122, 0.1);   /* плашка скролла и дорожка */ 
+
+        // &::-webkit-scrollbar {
+        //     width: 12px;               /* ширина scrollbar */
+        // }
+        // &::-webkit-scrollbar-track {
+        //     background: rgba(122, 122, 122, 0.1);        /* цвет дорожки */
+        // }
+        // &::-webkit-scrollbar-thumb {
+        //     background-color: $colorHeading;    /* цвет плашки */
+        //     border-radius: 20px;       /* закругления плашки */
+        // }
+
+        &.focus {
+            height: 400px;
+        }
     }
 }
 
