@@ -47,7 +47,6 @@ mail($admin_email, $form_subject, $message, $headers, $email_from);
 
 
 echo "<div class='success'>
-		<h2>The application has been accepted!<br>
-		We will contact you as soon as possible
-		</h2>
-	</div> ";
+		<p class='success__title'>The application has been accepted!</p>
+		<p class='success__discription'>We will contact you as soon as possible</p>	
+	</div>";

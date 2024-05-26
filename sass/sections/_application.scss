@@ -75,7 +75,7 @@
     font-family: "Tilt Neon", sans-serif;
 
     &--message {
-        resize: vertical;
+        resize: none;
         height: 37px;
         min-height: 37px;
         max-height: 400px;
@@ -187,4 +187,22 @@
 
 .error {
     color: $colorHeading;
+}
+
+.success {
+    text-align: center;
+    font-weight: 600;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 25px;
+    background: $backgroundCard;
+    border-radius: 10px;
+
+    &__title {
+        font-size: 30px;
+        color: $colorHeading;
+    }
+    &__discription {
+        font-size: 24px;
+    }
 }
