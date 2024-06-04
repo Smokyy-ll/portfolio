@@ -607,7 +607,7 @@ body {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-image: url(../../img/check.svg);
+  background-image: url(../img/check.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
